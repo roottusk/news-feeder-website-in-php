@@ -1,0 +1,85 @@
+.text-glow:hover, .text-glow:focus, .text-glow:active {
+	font-family:headfont;
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 1px 0px 20px yellow;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+   }
+
+
+body{
+	background-color:#0A0000;
+}
+
+@font-face {
+    font-family:headfont;
+    src: url(fonts/headfont.ttf);
+}
+
+
+#header {
+	font-size:24;
+    font-family:headfont;
+	background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#nav {
+	text-align:center;
+	font-family:Calibri;
+	font-weight:Bolder;
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+	height: 30px;
+  background-color: #eee;
+  white-space: nowrap;
+  width: 100%;
+  display: table;
+  
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+
+.news {
+  vertical-align: middle;
+  padding: 5px;
+  display: table-cell;
+}
+
+.news img {
+  max-width: 100%;
+}
+
+a:hover,a:focus{
+	
+	-webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #E60000;
+   -webkit-fill-color: #E60000;
+   text-shadow: 1px 0px 20px #E60000;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+}
+a:link,a:visited
+{
+	color:Orange;
+}
