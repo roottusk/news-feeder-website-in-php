@@ -4,8 +4,18 @@
     "owner": "roottusk"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": [],
+    "contributors": [
+      {
+        "name": "301spartan"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "NewsFeederDFD",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": "roottusk"
   }
 }
